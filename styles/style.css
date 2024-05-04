@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.header {
+    display: flex;
+    height: 100px;
+    background-color: #4c5766;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding-right: 40px;
+}
+
+.links, .desc {
+    color: #F9FAF8;
+    text-decoration: none;
+    font-size: 18px;
+    border: solid 1px;
+    border-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.links:hover{
+    background-color: #f9faf825;
+}
+
+.title {
+    color: #F9FAF8;
+    font-size: 24px;
+    padding: 20px;
+    margin-right: auto;
+    font-weight: bolder;
+    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+}
+
+.logo {
+    height: 6rem;
+    margin: 20px;
+    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+}
+
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.content:hover {
+    background-color:#141b24;
+}
+
+.current-desc{
+    border: 4px;
+    border-color: #1F2937;
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.desc-header {
+    color:#F9FAF8;
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+.desc {
+    padding: 20px;
+}
+
+.current-img {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    align-items: center;
+}
+
+.innerimage {
+    height: 250px;
+    width: auto;
+    flex: 1;  
+    filter: invert(10%) sepia(50%) saturate(1352%) hue-rotate(87deg) brightness(100%) contrast(100%);
+}
+
+.image-two {
+    object-fit:cover;
+    width: 200px;
+    height: 175px;
+}
+
+.cities-content{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+}
+
+.current-networks {
+    font-size: 22px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    color: #1F2937;
+    
+}
+
+.map-content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 25px;
+    margin: 0px 25px 25px 25px;
+}
+
+.metro-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: #1F2937;
+    background-color: #F9FAF8;
+    min-width: 200px;
+    height: 200px;
+    padding-top: 20px;
+    flex: 1 010;
+    
+}
+
+.metro-logo:hover{
+    filter: drop-shadow(5px 5px 10px #666);
+}
+
+.text{
+    padding: 30px;
+    color: #1F2937;
+}
+
+.istanbul {
+    padding-top: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
